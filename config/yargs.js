@@ -22,6 +22,11 @@ const argv = require('yargs')
                         alias: 'suma',
                         type: 'boolean',
                         describe: 'Muestra la suma de todos los números'
+                    },
+                    'p': {
+                        alias: 'pares',
+                        type: 'boolean',
+                        describe: 'Te devuelve la cantidad de resultados pares'
                     }
                 })
                 .check((argv, options) => {
