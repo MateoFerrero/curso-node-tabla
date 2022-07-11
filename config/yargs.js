@@ -17,6 +17,11 @@ const argv = require('yargs')
                         type: 'number',
                         default: 5,
                         describe: 'Es el limite hasta donde llega'
+                    },
+                    's': {
+                        alias: 'suma',
+                        type: 'boolean',
+                        describe: 'Muestra la suma de todos los números'
                     }
                 })
                 .check((argv, options) => {
