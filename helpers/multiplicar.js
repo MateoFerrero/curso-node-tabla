@@ -17,7 +17,7 @@ const crearArchivo = async( base = 4, listar = false, hasta = 5, suma = false, p
             sumado += base * i;
 
             if ((base * i) % 2 == 0) {
-                sumapares += 1;
+                sumapares++;
             }
         }
 
